@@ -16,6 +16,30 @@ public class Alumno extends Persona{
     public Alumno(String nombre){
 
     }
+    public Alumno(String nombre, String apellido){
+        super(nombre, apellido);
+
+    }
+
+    public Alumno(String nombre, String apellido, int edad){
+        super(nombre, apellido, edad);
+    }
+
+    public Alumno(String nombre, String apellido, int edad, String institucion){
+        super(nombre, apellido, edad);
+        this.institucion=institucion;//porque institucion es propio de alumno y no del padre, por eso no se
+        //incluye el super.SUPER() SIEMPRE PRIMERO
+    }
+
+    public Alumno(String nombre, String apellido, int edad, String institucion,
+                  double notaCastellano, double notaMatematicas, double notaHistoria){
+        this(nombre, apellido, edad, institucion);
+        this.notaMatematicas=notaMatematicas;
+        this.notaCastellano=notaCastellano;
+        this.notaHistoria=notaHistoria;
+
+    }
+
 
 
     public String getInstitucion() {

@@ -7,6 +7,17 @@ public class Profesor extends Persona {
         System.out.println();
     }
 
+
+
+    public Profesor(String nombre, String apellido,String asignatura){
+        super(nombre, apellido);
+        this.asignatura=asignatura;
+    }
+
+    public Profesor(String nombre, String apellido){
+        super(nombre, apellido);
+    }
+
     private String asignatura;
 
     public String getAsignatura() {

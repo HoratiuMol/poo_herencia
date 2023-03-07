@@ -13,6 +13,18 @@ public class Persona {//persona hereda también de Object, asi que alumno es hij
         System.out.println();
     }
 
+    public Persona(String nombre, String apellido){
+        this.nombre=nombre;
+        this.apellido=apellido; //inicializamos parametros
+    }
+
+
+
+    public Persona(String nombre, String apellido, int edad){
+        this(nombre, apellido);
+        this.edad=edad;
+    }
+
     public String getNombre() {
         return nombre;
     }
