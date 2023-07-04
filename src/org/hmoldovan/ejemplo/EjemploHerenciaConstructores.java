@@ -72,5 +72,9 @@ public class EjemploHerenciaConstructores {
             System.out.println("Asignatura : " + ((Profesor) persona).getAsignatura());
 
         }
+
+        System.out.println("============================= sobre escritura saludar ===========================");
+        System.out.println(persona.saludar());
+        System.out.println("=================================================");
     }
 }

@@ -73,4 +73,9 @@ public class Alumno extends Persona{
     public void setNotaHistoria(double notaHistoria) {
         this.notaHistoria = notaHistoria;
     }
+
+    @Override
+    public String saludar() {
+        return "Hola que tal soy un alumno y mi nombre es " + getNombre();
+    }
 }

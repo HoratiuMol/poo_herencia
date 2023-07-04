@@ -35,4 +35,8 @@ public class AlumnoInternacional extends Alumno {
         this.notaIdiomas = notaIdiomas;
     }
 
+    @Override
+    public String saludar() {
+        return "Hola soy un alumno internacional, del pais " + getPais() + ", mi nombre es " + getNombre();
+    }
 }

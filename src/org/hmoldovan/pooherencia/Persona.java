@@ -56,4 +56,8 @@ public class Persona {//persona hereda también de Object, asi que alumno es hij
     public void setEdad(int edad) {
         this.edad = edad;
     }
+
+    public String saludar(){
+        return "Hola que tal";
+    }
 }
