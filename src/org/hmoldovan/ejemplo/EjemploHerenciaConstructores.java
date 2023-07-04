@@ -76,5 +76,11 @@ public class EjemploHerenciaConstructores {
         System.out.println("============================= sobre escritura saludar ===========================");
         System.out.println(persona.saludar());
         System.out.println("=================================================");
+
+      /* System.out.println("============================= sobre escritura nota promedio===========================");
+        System.out.println(((Alumno) persona).calcularPromedio());
+        System.out.println("=================================================");
+        Da errir de ClassCastException
+        */
     }
 }

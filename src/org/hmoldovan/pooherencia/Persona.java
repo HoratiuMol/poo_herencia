@@ -60,4 +60,13 @@ public class Persona {//persona hereda también de Object, asi que alumno es hij
     public String saludar(){
         return "Hola que tal";
     }
+
+    @Override
+    public String toString() {
+        return "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", email='" + email + '\'' +
+                ", edad=" + edad + '\'' +
+                ",saludo=" + this.saludar();
+    }
 }

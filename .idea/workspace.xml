@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e922d41b-a671-4b65-b78e-70e0fda5d00f" name="Changes" comment="subida incial">
+      <change afterPath="$PROJECT_DIR$/src/org/hmoldovan/ejemplo/EjemploHerenciaToString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hmoldovan/ejemplo/EjemploHerenciaConstructores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hmoldovan/ejemplo/EjemploHerenciaConstructores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hmoldovan/pooherencia/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hmoldovan/pooherencia/Alumno.java" afterDir="false" />
@@ -53,7 +54,7 @@
       <recent name="org.hmoldovan.ejemplo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploHerenciaConstructores">
+  <component name="RunManager" selected="Application.EjemploHerenciaToString">
     <configuration name="EjemploHerencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hmoldovan.ejemplo.EjemploHerencia" />
       <module name="poo_herencia" />
@@ -80,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploHerenciaToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hmoldovan.ejemplo.EjemploHerenciaToString" />
+      <module name="poo_herencia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hmoldovan.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploHerenciaToString" />
         <item itemvalue="Application.EjemploHerenciaConstructores" />
         <item itemvalue="Application.EjemploHerencia" />
       </list>
@@ -117,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678222230743</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="subida incial">
+      <created>1688492898477</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688492898477</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
